@@ -1,0 +1,49 @@
+#footer,push {
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+    width: 920px;
+    padding: 0 20px;
+    background: rgb(44, 45, 46);
+    border-top-width: 50px;
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+body{
+    
+    width: 920px;
+    line-height: 50px;
+    font-size: 18px;
+    background: url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg');
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+section{
+    background-color: rgb(190, 199, 207);
+    width: 920px;
+}
+
+.navbar-expand-lg{
+    top: 0;
+    height: 100;
+    width: 920px;
+    
+
+}
+
+image{
+    height: 0px;
+}
+
+#img-responsive{
+    height: 10px;
+}
+
+
