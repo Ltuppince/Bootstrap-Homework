@@ -1,8 +1,8 @@
 #footer,push {
-    position: fixed;
-    left: 0px;
-    bottom: 0;
-    width: 920px;
+    /* position: fixed; */
+    /* left: 0px;
+    bottom: 0; */
+    width: 960px;
     padding: 0 20px;
     background: rgb(44, 45, 46);
     border-top-width: 50px;
@@ -11,10 +11,32 @@
     font-size: 20px;
     
 }
+.portfolioBox{
+    position: relative;
+}
 
-body{
+.content{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    background-color:rgb(190, 199, 207);
+    text-align: center;
+}
+.portfolioRow{
+    width: 960px;
+}
+.portfolioCol{
+
+    color: black;
+    height: 400px;
+}
+.portfolioCol img{
+    width: 100%;
+    /* height: 100% */
+}
+ body{
     
-    width: 920px;
+    width: 960px;
     line-height: 50px;
     font-size: 18px;
     background: url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg');
@@ -27,23 +49,23 @@ h1 {
 
 section{
     background-color: rgb(190, 199, 207);
-    width: 920px;
+    width: 960px;
 }
 
 .navbar-expand-lg{
     top: 0;
-    height: 100;
-    width: 920px;
+    height: 100px;
+    width: 960px;
     
 
 }
 
-image{
-    height: 0px;
+.container img{
+    height: 60%;
+    width: 100%;
 }
 
 #img-responsive{
     height: 10px;
 }
-
 
